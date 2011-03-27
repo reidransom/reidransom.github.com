@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url('Inconsolata.otf');
+}
+* {
+    font-family: Inconsolata, courier;
+}
+body {
+    background-color: #000;
+    color: #ddd;
+    text-align: center;
+    font-size: 200%;
+}
+h1 {
+    font-size: 300%;
+    margin-bottom: 0;
+}
+#container {
+    height: 100%;
+}
+.middle {
+    margin: auto;
+}
