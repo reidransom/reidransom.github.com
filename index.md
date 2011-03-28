@@ -3,4 +3,10 @@ layout: default
 title: Reid Ransom
 ---
 
-hello *reido*!
+# Reid Ransom
+
+Editor
+    
+[Reel](/reel/) |
+[Projects](http://github.com/reidransom) |
+[Connect](/connect/)
