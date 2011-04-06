@@ -1,0 +1,28 @@
+Perhaps I've been frustrated recently because I've found myself getting really
+irritated over simple things.  Yesterday I had an AFP share mounted read-only 
+and I wanted to make an alias on my computer pointing to a folder on this 
+share.  Normally I would right-click, choose Make Alias, copy the alias to my
+computer, rename it so it doesn't say " alias" at the end, then go back and 
+delete the original alias that was created.
+
+I know that sounds ridiculous, but I don't actually make alaises that often so
+it never really bothered me so much.  But since this drive was mounted read-only
+creating an alias "in place" wasn't an option.  Ofcourse my next move was to
+say "screw OS X", open up a Terminal and start typing `ln -s ...`, but then I 
+decided there had to be a better way, perhaps some Terminal addon, or better yet
+a replacement for Finder that maybe has tabs and bookmarks or all that stuff
+that's been common for years in web browsers and makes perfect sense to include
+in file browsers.  Someone must have thought of that, right?
+
+Well, atleast regarding my original problem, the answer was yes, Finder does
+that already.  Option + Command + Drag!
+
+Then this morning I wanted to open a folder in a new Finder window.  So I right
+click, expecting there to be an "Open in new window" option that for whatever
+reason I never noticed before, because obviously I don't know OS X the way I
+thought I did.  But it wasn't there.  But I refused to stop there, I found a way
+yesterday and I'll do it again.  Sure enough Command + Double Click.
+
+I feel a little embarrased that these simple shortcuts have elluded me for so
+many years of using OS X and Finder everyday.  But whatever, I'm swallowing my
+pride and sharing my new found knowledge via the Internet.
