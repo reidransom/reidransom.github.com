@@ -15,7 +15,9 @@ a {
 }
 a p {
     color: #000;
-    opacity: .2;
+    opacity: .1;
+    font-weight: bold;
+    padding-left: 1ex;
 }
 a:hover p {
     opacity: 1;
@@ -35,6 +37,12 @@ h2 {
     margin-left: 40px;
     font-size: 40pt;
 }
+h3 {
+    font-family: Inconsolata, courier;
+    letter-spacing: -.15ex;
+    margin-bottom: 1ex;
+    font-size: 16pt;
+}
 hr {
     border: none;
     border-bottom: solid 1px #000;
@@ -44,6 +52,10 @@ hr {
     width: 800px;
     margin: 3ex auto;
 }
+#content {
+    width: 450px;
+}
 p {
     margin-bottom: 1ex;
+    line-height: 80%;
 }
