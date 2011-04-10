@@ -3,42 +3,6 @@ media_root: '../media/'
 video_root: 'http://s3.amazonaws.com/rr_reel/'
 categories: [
     {
-        title: 'Latest',
-        id: 'latest',
-        videos: [
-            {
-                video: 'RedfordInterview.mp4',
-                title: 'Sundance Channel- Robert Redford Interview',
-                width: 768,
-                height: 412
-            },
-            {
-                video: 'BookerWhitakerInterview.mp4',
-                title: 'Sundance Channel- Brick City Interview',
-                width: 768,
-                height: 412
-            },
-            {
-                video: 'BlackSwan.mp4',
-                title: 'Logo- Black Swan',
-                width: 768,
-                height: 412
-            },
-            {
-                video: 'WhatIfTessDante.mp4',
-                title: 'ABC- What If',
-                width: 768,
-                height: 412
-            },
-            {
-                video: 'PrincessAndTheFrogDVD.mp4',
-                title: 'Disney- The Princess and the Frog DVD',
-                width: 768,
-                height: 412
-            }
-        ]
-    },
-    {
         title: 'Image',
         id: 'image',
         videos: [
