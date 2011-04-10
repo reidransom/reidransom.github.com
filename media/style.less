@@ -1,0 +1,73 @@
+@bg: #49f;
+@link: darken(@bg, 10%);
+@text: #000;
+
+@font-face {
+    font-family: Inconsolata;
+    src: url('Inconsolata.otf');
+}
+* {
+}
+body {
+    background-color: @bg;
+    color: @text;
+    font-size: 200%;
+    padding: 1em 0;
+}
+a, a:visited, a:active, a:link {
+    color: @link;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: @text;
+    text-shadow: 0 1px 0 lighten(@bg, 20%);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Inconsolata, courier;
+    letter-spacing: -.15ex;
+    text-shadow: 0 1px 0 lighten(@bg, 20%);
+}
+.header h1, .header h2 {
+    margin-bottom: 0;
+    line-height: 65%;
+    text-align: center;
+}
+.header h1 {
+    margin-left: -20px;
+}
+.header h2 {
+    margin-left: 40px;
+}
+.header {
+    margin-bottom: 1em;
+}
+hr {
+    border: none;
+    border-bottom: solid 1px #000;
+}
+.videos p, .categories p {
+    line-height: 75%;
+}
+.videos p {
+    margin-bottom: .5ex;
+}
+.categories p {
+    margin-bottom: 0;
+}
+.categories {
+}
+.categories div {
+    background-color: @link;
+    padding: 1ex;
+    position: fixed;
+}
+.categories a {
+    color: @bg;
+}
+.categories a:hover {
+    text-shadow: 0 1px 0 lighten(@link, 20%);
+}
+.categories a:hover {
+    color: @text;
+}

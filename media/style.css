@@ -8,54 +8,36 @@ body {
     background-color: #49f;
     color: #000;
     font-size: 200%;
-    font-family: "helvetica neue";
+    padding: 1em 0;
 }
 a {
     text-decoration: none;
 }
 a p {
     color: #000;
-    opacity: .1;
     font-weight: bold;
-    padding-left: 1ex;
 }
 a:hover p {
-    opacity: 1;
 }
-h1,h2 {
+h1,h2,h3,h4,h5,h6 {
     font-family: Inconsolata, courier;
-    font-size: 70pt;
-    margin-bottom: 0;
     letter-spacing: -.15ex;
+}
+.header h1, .header h2 {
+    margin-bottom: 0;
     line-height: 65%;
     text-align: center;
 }
-h1 {
+.header h1 {
     margin-left: -20px;
 }
-h2 {
+.header h2 {
     margin-left: 40px;
-    font-size: 40pt;
 }
-h3 {
-    font-family: Inconsolata, courier;
-    letter-spacing: -.15ex;
-    margin-bottom: 1ex;
-    font-size: 16pt;
+.header {
+    margin-bottom: 1em;
 }
 hr {
     border: none;
     border-bottom: solid 1px #000;
-    opacity: .2;
-}
-#container {
-    width: 800px;
-    margin: 3ex auto;
-}
-#content {
-    width: 450px;
-}
-p {
-    margin-bottom: 1ex;
-    line-height: 80%;
 }
