@@ -1,7 +1,0 @@
-{{media_root}}
-{{#categories}}
--{{title}}
-{{#videos}}
-  {{video}} {{height}}
-{{/videos}}
-{{/categories}}
