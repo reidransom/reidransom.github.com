@@ -1,6 +1,6 @@
 ---
 media_root: 'media/'
-video_root: 'http://s3.amazonaws.com/rr_reel/'
+video_root: 'http://s3.amazonaws.com/rr_media/reel/'
 videos: [
     {
         video: 'RedfordInterview.mp4',
