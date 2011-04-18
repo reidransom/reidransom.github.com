@@ -95,6 +95,12 @@ categories: [
                 title: 'DIRECTV- NASCAR Hotpass',
                 width: 768,
                 height: 412
+            },
+            {
+                video: 'MLBPresentation.mp4',
+                title: 'DIRECTV- MLB Presentation',
+                width: 640,
+                height: 460
             }
         ]
     },
