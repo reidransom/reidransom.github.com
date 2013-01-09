@@ -1,10 +1,15 @@
 @bg: #49f;
 @link: darken(@bg, 10%);
 @text: #000;
+@text2: #d04d1f;
 
 @font-face {
-    font-family: Inconsolata;
-    src: url('Inconsolata.otf');
+    font-family: Goudy;
+    src: url('goudy_bookletter_1911-webfont.ttf');
+}
+@font-face {
+    font-family: Chunk;
+    src: url('Chunk.ttf');
 }
 * {
 }
@@ -13,24 +18,27 @@ body {
     color: @text;
     font-size: 200%;
     padding: 1em 0;
+    font-family: Goudy, Times, serif;
+    line-height: 90%;
 }
 a, a:visited, a:active, a:link {
     color: @link;
-    font-weight: bold;
     text-decoration: none;
+    display: block;
 }
-a:hover {
-    color: @text;
-    text-shadow: 0 1px 0 lighten(@bg, 20%);
+a:hover, .categories a:hover {
+    color: @text2*0.7;
+    text-shadow: 0 1px 0 lighten(@bg, 10%);
+}
+.categories {
+    font-family: Chunk, Times, serif;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: Inconsolata, courier;
-    letter-spacing: -.15ex;
-    text-shadow: 0 1px 0 lighten(@bg, 20%);
+    font-family: Chunk, Times, serif;
+    text-shadow: 0 1px 0 lighten(@bg, 10%);
 }
 .header h1, .header h2 {
     margin-bottom: 0;
-    line-height: 65%;
     text-align: center;
 }
 .header h1 {
@@ -45,15 +53,23 @@ h1,h2,h3,h4,h5,h6 {
 .header h1 a {
     color: @text;
 }
+h6 {
+    margin-bottom: 1ex;
+}
 hr {
     border: none;
     border-bottom: solid 1px #000;
 }
 .videos p, .categories p {
-    line-height: 75%;
+    margin-bottom: 0.5em;
+    span {
+        font-size: 50%;
+        font-weigth: normal;
+        display: block;
+        margin-top: -0.5ex;
+    }
 }
 .videos p {
-    margin-bottom: .5ex;
 }
 .categories p {
     margin-bottom: 0;
@@ -68,10 +84,4 @@ hr {
 }
 .categories a {
     color: @bg;
-}
-.categories a:hover {
-    text-shadow: 0 1px 0 lighten(@link, 20%);
-}
-.categories a:hover {
-    color: @text;
 }
