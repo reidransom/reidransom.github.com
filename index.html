@@ -1,72 +1,200 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-<head>
-	<title>Reid Ransom</title>
-    
-    <meta charset=UTF-8>
-    
-    <link rel="stylesheet" href="media/blueprint/screen.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="media/blueprint/print.css" type="text/css" media="print" />
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="media/blueprint/ie.css" type="text/css" media="screen, projection" />
-    <![endif]-->
-    
-    <link rel="stylesheet/less" type="text/css" href="media/style.less" />
-    <script src="media/less.js" type="text/javascript"></script>
-    
-    <script src="media/jquery.js" type="text/javascript"></script>
-    
-    <script src="media/jquery.scrollTo.js" type="text/javascript"></script>
-    <script src="media/jquery.localscroll.js" type="text/javascript"></script>
 
-    <link href="media/shadowbox/shadowbox.css" rel="stylesheet" type="text/css" />
-    <script src="media/shadowbox/shadowbox.js" type="text/javascript"></script>
-	
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
 
-    <div class="container">
-    
-        <div class="span-24 last header">
-            <h1><a href=".">Reid Ransom</a></h1>
-        </div>
+		<title>Reid Ransom - My Personal Website</title>
 
-        <div class="span-15 append-1 videos">
-            <h6>Featured Work</h6>
-                <p><a href="http://reidransom.com/encloader/">Encloader<br /><span>Encode and upload videos... <i>faster!</i></span></a></p>
-                <p><a href="http://reidransom.com/timecode.js/">timecode.js<br /><span>Manipulate SMPTE timecode in javascript.</span></a></p>
-                <p><a href="http://s3.amazonaws.com/rr_media/reel/thecw-bing-kat-graham.mp4" rel="shadowbox;width=768;height=412;player=flv">“Kat Graham”<br /><span>Vampire Diaries + Bing</span></a></p>
-                <p><a href="http://s3.amazonaws.com/rr_media/reel/sundance-my-premiere.mp4" rel="shadowbox;width=768;height=412;player=flv">“Filly Brown”<br /><span>Sundance Channel + L’Oreal</span></a></p>
-                <p><a href="http://s3.amazonaws.com/rr_media/reel/wda-mawtp.mp4" rel="shadowbox;width=768;height=412;player=flv">Mini Adventures of Winnie the Pooh<br /><span>Walt Disney Animation Studios</span></a></p>
-                <p><a href="http://s3.amazonaws.com/rr_media/reel/usa-ncisla.mp4" rel="shadowbox;width=768;height=412;player=flv">NCIS: LA “It’s a letter”<br /><span>USA Network</span></a></p>
-        </div>
-    
-        <div class="span-8 last categories"><div>
-            <p><a href="reel/">Reel</a></p>
-            <p><a href="http://looknoplugins.com/">Blog</a></p>
-            <p><a href="https://github.com/reidransom/">Code</a></p>
-            <p><a href="http://twitter.com/reidransom">Follow</a></p>
-            <p><a href="https://www.dropbox.com/s/znroahbwci0ouw1/ReidRansom.pdf">Resume</a></p>
-            <p><a href="mailto:reid@reidransom.com">Contact</a></p>
-        </div></div>
-        
+		<meta name="description" content="My Personal Website.">
+		<meta name="author" content="Reid Ransom">
 
-        <div class="span-24 last">
-        </div>
-        
-    </div>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <script type="text/javascript">
-    $(function() {
-        Shadowbox.init({
-            flashVars: {
-                skin: "media/mediaplayer-5.5/glow.zip",
-                controlbar: "over"
-            }
-        });
-    });
-    </script>
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		
+		<link rel="stylesheet" href="css/reid.css" id="theme">
 
-</body>
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+		<![endif]-->
+
+		<style>
+			.video-js {
+				font-size: 10px !important;
+			}
+			.vjs-poster {
+				margin-top: 0px !important;
+				margin-bottom: 0px !important;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		fullscreen / autoplay
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<h2>timecode.js</h2>
+					<p><small>This is a javascript module for manipulating SMPTE timecode.</small></p>
+					<p>
+						<small><a href="http://reidransom.com/timecode.js">Link to timecode.js.</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Encloader</h2>
+					<p>
+						<small>Encloader is a free and open source application I developed for transcoding and uploading video.</small>
+					</p>
+					<p>
+						<small>It features the unrivaled x264 codec for creating amazing looking video at low bitrates for the web.  It also comes with presets for iOS, ProRes, DNxHD, Animation, and DVD as well.</small>
+					</p>
+					<p>
+						<small><a href="http://reidransom.com/encloader">Link to Encloader.</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h1>Reid Ransom</h1>
+					<h3><a href="#/1">&#12298; Programming</a></h3>
+					<h3><a href="#/3">Edit Reel &#12299;</a></h3>
+					<p>
+						<small>...yes, I have not one, but two talents.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Sundance Channel + L'Oreal</h2>
+					<p>
+						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
+							<source src="http://s3.amazonaws.com/rr_media/reel/sundance-my-premiere.mp4" type='video/mp4'>
+						</video></center>
+					</p>
+					<p>
+						<small>This is a L'Oreal intergration with the film "Filly Brown".  It follows the film's star, Gina Rodriguez, to the premiere of the film at the Sundance Film Festival.</small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>The CW + Bing</h2>
+						<p>
+							<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
+								<source src="http://s3.amazonaws.com/rr_media/reel/thecw-bing-kat-graham.mp4" type='video/mp4'>
+							</video></center>
+						</p>
+						<p>
+							<small>This is a Bing integration with "The Vampire Diaries", following Kat Graham's day as she prepares for a concert.</small>
+						</p>
+						<p>
+							<small>...she's also multi-talented.</small>
+						</p>
+					</section>
+					<!--section>
+						<h2>The CW + Windows 8</h2>
+						<p>
+							<small>This is a Windows 8 integration with "Arrow", featuring Colin Donnel.</small>
+						</p>
+					</section-->
+				</section>
+
+				<section>
+					<h2>NBC + Walgreens</h2>
+					<p>
+						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
+							<source src="http://s3.amazonaws.com/rr_media/reel/nbc-walgreens.mp4" type='video/mp4'>
+						</video></center>
+					</p>
+					<p>
+						<small>This is a Walgreens integration with "Celebrity Apprentice" featuring Magic Johnson.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>USA</h2>
+					<p>
+						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
+							<source src="http://s3.amazonaws.com/rr_media/reel/usa-ncisla.mp4" type='video/mp4'>
+						</video></center>
+					</p>
+					<p>
+						<small>This is a spot promoting NCIS: Los Angeles syndication on USA.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>FOX</h2>
+					<p>
+						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
+							<source src="http://s3.amazonaws.com/rr_media/reel/Farewell24.mp4" type='video/mp4'>
+						</video></center>
+					</p>
+					<p>
+						<small>"Farewell 24"</small>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+		
+		<script src="http://vjs.zencdn.net/c/video.js"></script>
+		<script type="text/javascript">
+			Reveal.addEventListener("ready", function(event) {
+				Reveal.slide(2);
+			});
+		</script>
+	</body>
 </html>

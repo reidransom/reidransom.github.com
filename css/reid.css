@@ -1,0 +1,55 @@
+::selection {
+	background: #49f;
+}
+
+.reveal a:not(.image) {
+  color: #49f;
+}
+
+.reveal a:not(.image):hover {
+  color: #49f;
+}
+
+.reveal .roll span:after {
+  background: #f00;
+}
+
+.reveal a:hover img {
+  border-color: #49f;
+}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #49f;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #49f;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #49f;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #49f;
+}
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #f00;
+}
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #f00;
+}
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #f00;
+}
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #f00;
+}
