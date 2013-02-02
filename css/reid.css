@@ -2,15 +2,27 @@
 	background: #49f;
 }
 
-.reveal a:not(.image) {
-  color: #49f;
+.header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
+
+a:not(.image), .reveal a:not(.image) {
+  color: #49f;
+  text-decoration: none;
+}
+
 
 .reveal a:not(.image):hover {
   color: #49f;
 }
 
-.reveal .roll span:after {
+a:not(.image):hover {
+  color: #f00;
+}
+
+.roll span:after, .reveal .roll span:after {
   background: #f00;
 }
 
@@ -52,4 +64,10 @@
 
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #f00;
+}
+
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
 }

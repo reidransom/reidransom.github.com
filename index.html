@@ -29,12 +29,15 @@
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+		<!--script type="text/javascript" src="//cdn.sublimevideo.net/js/2jcc5gex-beta.js"></script-->
+		<script type="text/javascript" src="//cdn.sublimevideo.net/js/2jcc5gex.js"></script>
 
 		<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
 		<!--[if IE 7]>
 		<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
 		<![endif]-->
+
+		<script src="js/prefixfree.min.js"></script>
 
 		<style>
 			.video-js {
@@ -49,22 +52,24 @@
 	</head>
 
 	<body>
-
-		fullscreen / autoplay
+		
+		<!-- fullscreen / autoplay buttons -->
 		<div class="reveal">
 
 			<div class="slides">
 
 				<section>
 					<h2>timecode.js</h2>
+					<p><img src="media/img/timecode.js.png" />
 					<p><small>This is a javascript module for manipulating SMPTE timecode.</small></p>
 					<p>
-						<small><a href="http://reidransom.com/timecode.js">Link to timecode.js.</a></small>
+						<small><a href="//reidransom.com/timecode.js">Link to timecode.js.</a></small>
 					</p>
 				</section>
 
 				<section>
 					<h2>Encloader</h2>
+					<p><img src="media/img/encloader.png" />
 					<p>
 						<small>Encloader is a free and open source application I developed for transcoding and uploading video.</small>
 					</p>
@@ -72,7 +77,7 @@
 						<small>It features the unrivaled x264 codec for creating amazing looking video at low bitrates for the web.  It also comes with presets for iOS, ProRes, DNxHD, Animation, and DVD as well.</small>
 					</p>
 					<p>
-						<small><a href="http://reidransom.com/encloader">Link to Encloader.</a></small>
+						<small><a href="//reidransom.com/encloader">Link to Encloader.</a></small>
 					</p>
 				</section>
 
@@ -86,78 +91,67 @@
 				</section>
 
 				<section>
-					<h2>Sundance Channel + L'Oreal</h2>
-					<p>
-						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
-							<source src="http://s3.amazonaws.com/rr_media/reel/sundance-my-premiere.mp4" type='video/mp4'>
-						</video></center>
-					</p>
-					<p>
-						<small>This is a L'Oreal intergration with the film "Filly Brown".  It follows the film's star, Gina Rodriguez, to the premiere of the film at the Sundance Film Festival.</small>
-					</p>
+					<h2>The CW + Bing</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/thecw-bing-kat-graham.jpg"><source src="//media.reidransom.com/thecw-bing-kat-graham.mp4" data-quality="hd" /></video>
+					<p><small>This is a Bing integration with "The Vampire Diaries", following Kat Graham's day as she prepares for a concert.</small>
+				</section>
+					
+				<section>
+					<h2>USA - NCIS: LA "It's a letter"</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/usa-ncisla.jpg"><source src="//media.reidransom.com/usa-ncisla.mp4" data-quality="hd" /></video>
+					<p><small>This is a spot promoting NCIS: Los Angeles syndication on USA.</small>
 				</section>
 
 				<section>
-					<section>
-						<h2>The CW + Bing</h2>
-						<p>
-							<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
-								<source src="http://s3.amazonaws.com/rr_media/reel/thecw-bing-kat-graham.mp4" type='video/mp4'>
-							</video></center>
-						</p>
-						<p>
-							<small>This is a Bing integration with "The Vampire Diaries", following Kat Graham's day as she prepares for a concert.</small>
-						</p>
-						<p>
-							<small>...she's also multi-talented.</small>
-						</p>
-					</section>
-					<!--section>
-						<h2>The CW + Windows 8</h2>
-						<p>
-							<small>This is a Windows 8 integration with "Arrow", featuring Colin Donnel.</small>
-						</p>
-					</section-->
+					<h2>Sundance Channel + Acura</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/sc-acura-afternoondelight.jpg"><source src="//media.reidransom.com/sc-acura-afternoondelight.mp4" data-quality="hd" /></video>
+					<p><small>This is an interview I cut while on location at the 2013 Sundance Film Festival with the director and cast of <em>Afternoon Delight</em>, <a href="//filmguide.sundance.org/film/13033/afternoon_delight">winner of the 2013 Sundance Film Festival's Directing Award: U.S. Dramatic.</a></small>
 				</section>
+
+				<!--
+				<section>
+					<h2>Cartoon Network - Big Fan Weekend</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none"><source src="//media.reidransom.com/cn-bfw-iceking.mp4" data-quality="hd" /></video>
+					<p><small>This is a spot I cut for Cartoon Network while on location at Comic-Con.  It features Tom Kenny as the voice of Ice King from <em>Adventure Time</em>.</small>
+				</section>
+
+				<section>
+					<h2>Cartoon Network Sizzle</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none"><source src="//media.reidransom.com/cn-sizzle.mp4" data-quality="hd" /></video>
+					<p><small>This is a sizzle for Cartoon Network featuring <em>Adventure Time</em> and <em>Regular Show</em>.</small>
+				</section>
+				-->
 
 				<section>
 					<h2>NBC + Walgreens</h2>
-					<p>
-						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
-							<source src="http://s3.amazonaws.com/rr_media/reel/nbc-walgreens.mp4" type='video/mp4'>
-						</video></center>
-					</p>
-					<p>
-						<small>This is a Walgreens integration with "Celebrity Apprentice" featuring Magic Johnson.</small>
-					</p>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none"><source src="//media.reidransom.com/nbc-walgreens.mp4" data-quality="hd" /></video>
+					<p><small>This is a Walgreens integration with "Celebrity Apprentice" featuring Magic Johnson.</small>
 				</section>
 
 				<section>
-					<h2>USA</h2>
-					<p>
-						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
-							<source src="http://s3.amazonaws.com/rr_media/reel/usa-ncisla.mp4" type='video/mp4'>
-						</video></center>
-					</p>
-					<p>
-						<small>This is a spot promoting NCIS: Los Angeles syndication on USA.</small>
-					</p>
+					<h2>Sundance Channel + L'Oreal</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none"><source src="//media.reidransom.com/sundance-my-premiere.mp4" data-quality="hd" /></video>
+					<p><small>This is a L'Oreal intergration with the film "Filly Brown".  It follows the film's star, Gina Rodriguez, to the premiere of the film at the Sundance Film Festival.</small>
 				</section>
 
 				<section>
-					<h2>FOX</h2>
-					<p>
-						<center><video class="video-js vjs-default-skin" controls preload="auto" width="720" height="405" data-setup="{}">
-							<source src="http://s3.amazonaws.com/rr_media/reel/Farewell24.mp4" type='video/mp4'>
-						</video></center>
-					</p>
-					<p>
-						<small>"Farewell 24"</small>
-					</p>
+					<h2>The CW + Windows 8</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none"><source src="//media.reidransom.com/thecw-windows8-colin-donnell.mp4" data-quality="hd" /></video>
+					<p><small>This is a Windows 8 integration with "Arrow", featuring Colin Donnel.</small>
+				</section>
+
+				<section>
+					<h2>FOX "Farewell 24"</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none"><source src="//media.reidransom.com/fox-farewell24.mp4" data-quality="hd" /></video>
+					<p><small>"Farewell 24"</small>
 				</section>
 
 			</div>
 
+		</div>
+
+		<div class="header">
+			<p><a href="#/2"><i class="icon-home icon-4x"></i></a></p>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -190,7 +184,6 @@
 
 		</script>
 		
-		<script src="http://vjs.zencdn.net/c/video.js"></script>
 		<script type="text/javascript">
 			Reveal.addEventListener("ready", function(event) {
 				Reveal.slide(2);
