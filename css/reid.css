@@ -1,5 +1,6 @@
 body {
   background: radial-gradient(center, circle cover, #333333 0%, #000000 100%);
+  background: -webkit-radial-gradient(center, circle cover, #333333 0%, #000000 100%);
 }
 
 ::selection {
