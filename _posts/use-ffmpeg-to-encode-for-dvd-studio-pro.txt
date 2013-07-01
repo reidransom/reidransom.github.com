@@ -1,3 +1,0 @@
-ffmpeg -i input.mov -acodec ac3 -ab 384k output.ac3
-ffmpeg -i input.mov -target ntsc-dvd -aspect 16:9 -an -y temp.m2v
-ffmpeg -i temp.m2v -vcodec copy output.m2v

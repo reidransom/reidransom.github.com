@@ -46,3 +46,4 @@ Thumbs.db
 *.webm
 
 media/video
+node_modules
