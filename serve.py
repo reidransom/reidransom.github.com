@@ -8,6 +8,9 @@ import BaseHTTPServer
 import CGIHTTPServer
 import cgitb; cgitb.enable()  ## This line enables CGI error reporting
 
+# SSH Deploy Destination:
+#destination = 'user@example.com:path/to/docroot/'
+destination = 'reidransom@reidransom.webfactional.com:webapps/reidransom/'
 
 def parseArgs():
 	parser = argparse.ArgumentParser(description="Run a static site development http server.")
@@ -38,7 +41,7 @@ def openInBrowser(url):
 	subprocess.call(['open', url])
 
 def deploy():
-	subprocess.call(['rsync', '-av', '--delete', '--delete-excluded', '--exclude', '*.DS_Store', '-e', 'ssh', './public/', 'user@example.com:path/to/docroot/'])
+	subprocess.call(['rsync', '-av', '--delete', '--delete-excluded', '--exclude', '*.DS_Store', '-e', 'ssh', './public/', destination])
 
 def run():
 	args = parseArgs()

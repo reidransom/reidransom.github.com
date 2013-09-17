@@ -47,6 +47,12 @@
 				margin-top: 0px !important;
 				margin-bottom: 0px !important;
 			}
+            .small {
+                font-size: 18px !important;
+            }
+            h1 {
+                margin-bottom: 60px !important;
+            }
 		</style>
 
 	</head>
@@ -59,22 +65,14 @@
 			<div class="slides">
 
 				<section>
-					<h2><a href="//reidransom.com/timecode.js">timecode.js</a></h2>
-					<p><img src="media/img/timecode.js.png" />
-					<p><small>This is a javascript module I developed for manipulating SMPTE timecode.</small>
-				</section>
-
-				<section>
-					<h2><a href="//reidransom.com/encloader">Encloader</a></h2>
-					<p><img src="media/img/encloader.png" />
-					<p><small>Encloader is a free and open source application I developed for transcoding and uploading video.</small>
-					<p><small>It features the unrivaled x264 codec for creating amazing looking video at low bitrates for the web.  It also comes with presets for iOS, ProRes, DNxHD, Animation, and DVD as well.</small>
-				</section>
-
-				<section>
+					<p class="small">Hi, I'm a commercial editor by day and a software developer by night.
+                    <p class="small">My name is
 					<h1>Reid Ransom</h1>
-					<h3><a href="#/1">&#12298; Programming</a></h3>
-					<h3><a href="#/3">Edit Reel &#12299;</a></h3>
+                    <p class="small">I work at <a href="http://b2plus.tv/">B2+</a>.
+                    <p class="small">I run a software company in my free time called <a href="http://electricpond.com/">Electric Pond</a>.
+                    <p class="small">Occasionally I write <a href="http://blog.reidransom.com/">blog posts</a>.
+                    <p class="small">I make this app <a href="https://synchardapp.com/">Sync Hard</a>.
+					<p class="small">Check out my <a href="#/1">Edit Reel &#12299;</a>
 				</section>
 
 				<section>
@@ -90,10 +88,17 @@
 				</section>
 					
 				<section>
+					<h2>Cartoon Network Sizzle</h2>
+					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/cn-sizzle.jpg"><source src="//s3.amazonaws.com/rr_media/reel/cn-sizzle.mp4" data-quality="hd" /></video>
+					<p><small>This is a sizzle for Cartoon Network featuring <em>Adventure Time</em> and <em>Regular Show</em>.</small>
+				</section>
+				<!--
+                <section>
 					<h2>Cartoon Network - Hall of Game 2013 Intro</h2>
 					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/cn-hall-of-game-credit-squeeze.jpg"><source src="//s3.amazonaws.com/rr_media/reel/cn-hall-of-game-credit-squeeze.mp4" data-quality="hd" /></video>
 					<p><small>This is the intro to Hall of Game 2013 on Cartoon Network with Colin Kaepernick, Antonio Gates, and Shaq.</small>
 				</section>
+                -->
 
 				<section>
 					<h2>Sundance Channel + Acura</h2>
@@ -158,14 +163,14 @@
 		</div>
 
 		<div class="header">
-			<a href="#/2" title="Home"><i class="icon-home icon-4x"></i></a>&nbsp;
+			<a href="#/" title="Home"><i class="icon-home icon-4x"></i></a>&nbsp;
 			<a href="//github.com/reidransom" title="GitHub"><i class="icon-github icon-4x"></i></a>&nbsp;
-			<a href="ReidRansom.pdf" title="Resume"><i class="icon-file icon-4x"></i></a>&nbsp;
-			<a href="mailto://reid@reidransom.com" title="Email"><i class="icon-envelope icon-4x"></i></a>&nbsp;
+			<!--<a href="ReidRansom.pdf" title="Resume"><i class="icon-file icon-4x"></i></a>&nbsp;-->
+			<a href="mailto:reid@reidransom.com" title="Email"><i class="icon-envelope icon-4x"></i></a>&nbsp;
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+		<script src="js/reveal.js"></script>
 
 		<script>
 
@@ -194,10 +199,5 @@
 
 		</script>
 		
-		<script type="text/javascript">
-			Reveal.addEventListener("ready", function(event) {
-				Reveal.slide(2);
-			});
-		</script>
 	</body>
 </html>

@@ -20,7 +20,7 @@ a:not(.image), .reveal a:not(.image) {
 
 
 .reveal a:not(.image):hover {
-  color: #49f;
+  color: #f00;
 }
 
 a:not(.image):hover {
@@ -75,4 +75,8 @@ a:not(.image):hover {
   background: none;
   border: none;
   box-shadow: none;
+}
+
+.small {
+    font-size: 10px;
 }
